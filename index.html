@@ -27,6 +27,10 @@
           <label for="password">Password:</label>
           <input type="password" id="password" name="user_password">
         
+          <label>Age:</label>
+          <input type="radio" id="under_13" valu="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+          <input type="radio" id="over_13" valu="over_13" name="user_age"><label for="over_13" class="light">13 or Older</label>
+
         </fieldset>
         
         <fieldset>
@@ -56,17 +60,16 @@
               <option value="freelancer">Freelancer</option>
             </optgroup>
           </select>
-        
+
+          <label>Interest</label>
+          <input type="checkbox" id="development" value="ineterest_development" name="user_interest">
+          <label class="light" for="development">Development</label><br>
+          <input type="checkbox" id="design" value="ineterest_design" name="user_interest">
+          <label class="light" for="design">Design</label><br>
+          <input type="checkbox" id="business" value="ineterest_business" name="user_interest">
+          <label class="light" for="business">Business</label>
         </fieldset>
-          
-        <label>Different Sizes</label>
-
-            <input type="radio" id="small" name="shirt_size" value="small"><label for="small">Small</label>
-            <input type="radio" id="medium" name="shirt_size" value="medium"><label for="medium"> Medium</label>
-            <input type="radio" id="large" name="shirt_size" value="large"><label for="large">Large</label>
-
-        <button type="submit">Sign Up</button>
-        
+                  
       </form>
       
     </body>
